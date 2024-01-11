@@ -52,7 +52,7 @@ const WeatherApp = () => {
         <div className='search_icon' onClick={ ()=> {search()}}>
         <img src={search_icon} alt="" />
         </div>
-    </div>
+    </div>    
      <div className='weather-image'>
      <img src={wicon} alt=""  />
      </div>
@@ -75,9 +75,9 @@ const WeatherApp = () => {
         <div className='text'> Wind Speed </div>
          </div>
      </div>
-
-     </div>
       
+     </div>      
+          
     </div>
   )
 }
